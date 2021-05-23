@@ -1,1 +1,1 @@
-[SS](https://i.imgur.com/WjMM0Fv.png)
+![Web Screen](https://i.imgur.com/WjMM0Fv.png)
