@@ -22,46 +22,48 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Web',
-      home: Scaffold(
-        backgroundColor: Color(0xffeceff1),
-        endDrawer: Drawer(
-          child: ListView(
-            padding: EdgeInsets.zero,
-            children: [
-              DrawerItems(),
-            ],
+      home: SafeArea(
+        child: Scaffold(
+          backgroundColor: Color(0xffeceff1),
+          endDrawer: Drawer(
+            child: ListView(
+              padding: EdgeInsets.zero,
+              children: [
+                DrawerItems(),
+              ],
+            ),
           ),
-        ),
-        body: SingleChildScrollView(
-          child: Column(
-            children: [
-              NavigationBar(),
-              SizedBox(height: 20),
-              FirstRow(),
-              SizedBox(height: 20),
-              SecondRow(),
-              SizedBox(height: 20),
-              BottomChannel(),
-              SizedBox(height: 20),
-              AddChannelBottom(),
-              SizedBox(height: 20),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      'Terms of Service ',
-                      style: TextStyle(
-                        fontFamily: 'Muli',
-                        fontSize: 16,
-                        color: Color(0xff4c54d2),
+          body: SingleChildScrollView(
+            child: Column(
+              children: [
+                NavigationBar(),
+                SizedBox(height: 20),
+                FirstRow(),
+                SizedBox(height: 20),
+                SecondRow(),
+                SizedBox(height: 20),
+                BottomChannel(),
+                SizedBox(height: 20),
+                AddChannelBottom(),
+                SizedBox(height: 20),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    TextButton(
+                      onPressed: () {},
+                      child: Text(
+                        'Terms of Service ',
+                        style: TextStyle(
+                          fontFamily: 'Muli',
+                          fontSize: 16,
+                          color: Color(0xff4c54d2),
+                        ),
                       ),
                     ),
-                  ),
-                ],
-              ),
-            ],
+                  ],
+                ),
+              ],
+            ),
           ),
         ),
       ),
