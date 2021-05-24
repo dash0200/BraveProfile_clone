@@ -6,7 +6,6 @@ import 'package:responsive_web/Rows/FirstRow/FirstRow.dart';
 import 'package:responsive_web/NavigationBar/DrawerItems.dart';
 import 'package:responsive_web/NavigationBar/NavBar.dart';
 import 'package:responsive_web/Rows/SecondRow/SecondRow.dart';
-
 void main() {
   runApp(MyApp());
 }

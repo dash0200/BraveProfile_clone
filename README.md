@@ -3,7 +3,7 @@
 
 
 # Tab
-![Tab Screen](https://i.imgur.com/P7YG7ac.png)
+![Tab Screen](https://i.imgur.com/l3T6AAC.png)
 
 
 # Mobile
