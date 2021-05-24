@@ -1,5 +1,5 @@
 # Web
-![Web Screen](https://i.imgur.com/WjMM0Fv.png)
+![Web Screen](https://i.imgur.com/2QCAriZ.png)
 
 
 # Tab
